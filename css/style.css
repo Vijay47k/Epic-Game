@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    transition: all 0.5s linear;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+.navbar {
+    background:linear-gradient(to right, rgb(0, 215, 140), rgb(22, 205, 202),rgb(4, 245, 161));
+    position: sticky;
+    top: 0%;
+    z-index: 5;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.619);
+}
+.nav-link {
+    font-weight: bold;
+    line-height: 1;
+}
+.collapse ul li {
+    padding-inline: 30px;
+    text-transform: uppercase;
+}
+
+.search {
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    width: 265px;
+    border-radius: 60px;
+    height: 45px;
+}
+.searchbtn {
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 40px;
+    height: 45px;
+    width: 40%;
+    font-weight: 700;
+    border: none;
+    margin-left: -100px;
+}
+
+.main {
+    background: url(../images/pc.jpg)no-repeat;
+    background-size: cover;
+    height: 105vh;
+    box-shadow: 0px 2px 15px rgba(171, 145, 145, 0.688);
+    position: relative;
+}
+#qt {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px rgb(0, 217, 255);
+    position: absolute;
+    bottom: 100px;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px white;
+    font-family: 'kalam';
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    text-align: center;
+    margin: 0px;
+    top: 100px;
+    width: 800px;
+}
+
+img:hover {
+    transition: 0.9s;
+    transform: scale(105%, 105%);
+    opacity: 0.9;
+}
+.morebtn{
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    border: none;
+    height: 45px;
+    width: 20%;
+    font-weight: 700;
+}
+.btn1 {
+    background-color: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    border: none;
+    height: 45px;
+    width: 30%;
+    font-weight: 700;
+}
+
+#back {
+    background: url(../images/bg.JPG) no-repeat;
+    background-size: cover;
+}
+
+.card-body {
+    padding: 5px;
+    overflow: hidden;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+#rate {
+    text-decoration: line-through;
+}
+
+#rate1 {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bi{
+    color: yellow;
+}
+span {
+    color: red;
+    text-shadow: 1px 1px 2px black;
+}
+hr{
+    background-color: white;
+}
